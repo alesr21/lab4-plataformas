@@ -34,7 +34,7 @@ void allocateMatrix(int ***matrix, int size) {
     }
 }
 
-// Función para llenar la matriz con valores aleatorios (0s y 1s)
+// Función para llenar la matriz con valores aleatorios con 0s y 1s
 
 void fillMatrix(int **matrix, int size) {
     srand(time(NULL)); 
